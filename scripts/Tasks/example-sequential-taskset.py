@@ -2,6 +2,7 @@ from locust import SequentialTaskSet, constant, task, HttpUser
 import random
 
 
+# hace las tareas en orden secuencial
 class SequentialTaskSetExample(SequentialTaskSet):
 
     @task

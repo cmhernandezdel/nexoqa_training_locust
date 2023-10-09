@@ -1,7 +1,7 @@
 from locust import TaskSet, constant, task, HttpUser
 import random
 
-
+# hace las tareas de forma aleatoria
 class TaskSetExample(TaskSet):
 
     @task
